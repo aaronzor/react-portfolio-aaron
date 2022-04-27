@@ -1,8 +1,10 @@
+
+
 const particlesConfig = {
     "autoPlay": true,
     "background": {
       "color": {
-        "value": "#232741"
+        "value": "#1E2022"
       },
       "position": "50% 50%",
       "repeat": "no-repeat",
@@ -15,7 +17,7 @@ const particlesConfig = {
         "color": {
           "value": "#fff"
         },
-        "opacity": 1
+        "opacity": 0
       },
       "enable": false
     },
@@ -118,7 +120,7 @@ const particlesConfig = {
           "quantity": 2
         },
         "repulse": {
-          "distance": 400,
+          "distance": 200,
           "duration": 0.4,
           "factor": 100,
           "speed": 1,
@@ -195,7 +197,7 @@ const particlesConfig = {
         }
       },
       "color": {
-        "value": "#ffffff",
+        "value": ["#F0F5F9", "#C9D6DF", "#52616B", "#32E0C4" ],
         "animation": {
           "h": {
             "count": 0,
@@ -350,6 +352,7 @@ const particlesConfig = {
           "length": 10,
           "fillColor": {
             "value": "#000000"
+            
           }
         },
         "vibrate": false,
@@ -362,7 +365,7 @@ const particlesConfig = {
           "factor": 1000
         },
         "limit": 0,
-        "value": 160
+        "value": 25
       },
       "opacity": {
         "random": {
@@ -462,8 +465,8 @@ const particlesConfig = {
           "minimumValue": 1
         },
         "value": {
-          "min": 1,
-          "max": 3
+          "min": 3,
+          "max": 10
         },
         "animation": {
           "count": 0,
