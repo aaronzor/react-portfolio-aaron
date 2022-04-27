@@ -8,10 +8,12 @@ import TypewriterComponent from 'typewriter-effect';
 // Import Assets
 import linkedin from '../../assets/images/linkedin.png';
 import avatar from '../../assets/images/avatar.jpg';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 // Import Styles
 import particlesConfig from '../../config/particlesConfig';
 import './home.css';
+import Link from 'react-scroll/modules/components/Link';
 
 // Initialise Particles
 const particlesInit = async (main) => {
@@ -69,6 +71,20 @@ const Home = () => {
                 </a>
               </div>
             </Bounce>
+            <div className='scroll-down'>
+              <Link
+                activeClass='active'
+                to='NOTHING YET'
+                spy={true}
+                smooth={true}
+                offset={-63}
+                duration={500}>
+                <ArrowCircleDownIcon
+                  fontSize='large'
+                  style={{ pointerEvents: 'fill', cursor: 'pointer' }}
+                />
+              </Link>
+            </div>
           </Fade>
         </div>
       </div>
