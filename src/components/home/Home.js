@@ -3,6 +3,7 @@ import React from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import { Fade, Bounce } from 'react-reveal';
+import TypewriterComponent from 'typewriter-effect';
 
 // Import Assets
 import linkedin from '../../assets/images/linkedin.png';
@@ -43,6 +44,21 @@ const Home = () => {
             <h1 className='greeting-text'>
               Hi, I'm <span className='name'>Aaron</span>.{' '}
             </h1>
+            <h2 className='greeting-text'>
+              <TypewriterComponent
+                options={{
+                  strings: [
+                    '< I like building things for the web.',
+                    '< I am passionate about learning.',
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 10,
+                  cursor: ' />',
+                  delay: 100,
+                }}
+              />
+            </h2>
             <Bounce cascade>
               <div className='links'>
                 <a
