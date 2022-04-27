@@ -75,7 +75,7 @@ const Home = () => {
             <div className='scroll-down'>
               <Link
                 activeClass='active'
-                to='NOTHING YET'
+                to='about'
                 spy={true}
                 smooth={true}
                 offset={-63}
