@@ -32,14 +32,14 @@
     margin: 15px;
   }
   .name {
-    color: rgb(11, 231, 121);
+    color: #32E0C4;
   }
 
 
   /* Profile Avatar */
   .profile {
     border-radius: 50%;
-    border: 0.2rem solid #0be779;
+    border: 0.2rem solid #32E0C4;
   }
 
   /* Particles Animation */
