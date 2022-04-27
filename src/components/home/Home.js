@@ -8,6 +8,7 @@ import TypewriterComponent from 'typewriter-effect';
 // Import Assets
 import linkedin from '../../assets/images/linkedin.png';
 import avatar from '../../assets/images/avatar.jpg';
+import aaron from '../../assets/images/aaron.jpg';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 // Import Styles
@@ -41,7 +42,7 @@ const Home = () => {
             <img
               className='profile'
               alt='aaron mcmullan profile avatar'
-              src={avatar}
+              src={aaron}
             />
             <h1 className='greeting-text'>
               Hi, I'm <span className='name'>Aaron</span>.{' '}
