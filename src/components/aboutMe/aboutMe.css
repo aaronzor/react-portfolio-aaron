@@ -1,0 +1,82 @@
+/* Responsive Styles for Container */
+@media screen and (min-width: 960px) {
+  .about-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 959px) and (min-width: 600px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* AboutMe Container */
+.about {
+  background-color: #52616b;
+  border-top: 1px solid #32e0c4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+/* Text styles */
+.about-text {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* TypeWriter Text Styles */
+
+.typewriter {
+  display: flex;
+  align-items: center;
+}
+.typewriter-start {
+  padding-right: 5px;
+}
+.typewriter > p {
+  margin: 0;
+}
+
+/* Location Pin */
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  width: 70%;
+  margin-top: -15px;
+}
+
+/* Responsive Scroll Down Icon */
+@media screen and (min-height: 599px) {
+  .scroll {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -93%);
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+  }
+}
+@media screen and (max-height: 599px) and (min-height: 410px) {
+  .scroll {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -93%);
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10px;
+  }
+}
+@media screen and (max-height: 409px) {
+  .scroll {
+    display: none;
+  }
+}
