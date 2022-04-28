@@ -72,7 +72,7 @@ const AboutMe = () => {
         <div className='scroll'>
           <Link
             activeClass='active'
-            to='about'
+            to='skills'
             spy={true}
             smooth={true}
             offset={-63}
