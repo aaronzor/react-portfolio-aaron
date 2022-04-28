@@ -26,11 +26,11 @@ const AboutMe = () => {
                 height='16'
                 aria-hidden='true'>
                 <path
-                  fill='white'
+                  fill='#32e0c4'
                   fillRule='evenodd'
                   d='M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z'></path>
               </svg>
-              <p>Bangor, Northern Ireland</p>
+              <p className='location-text'>Bangor, Northern Ireland.</p>
             </div>
             <p>
               I'm a self taught software engineer who likes to work on Front and
@@ -42,13 +42,13 @@ const AboutMe = () => {
               <TypewriterComponent
                 options={{
                   strings: [
-                    'Science-fiction.',
-                    'Learning new things.',
-                    'Walking and hiking.',
-                    'Setting and achieving goals.',
-                    'My two cats.',
-                    'Gaming.',
-                    'Solving complex problems.',
+                    'science-fiction.',
+                    'learning new things.',
+                    'walking and hiking.',
+                    'setting and achieving goals.',
+                    'my two cats.',
+                    'gaming.',
+                    'solving complex problems.',
                   ],
                   autoStart: true,
                   delay: 65,

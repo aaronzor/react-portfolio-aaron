@@ -30,6 +30,10 @@
   max-width: 600px;
 }
 
+.location-text {
+  margin-left: 5px;
+}
+
 /* TypeWriter Text Styles */
 
 .typewriter {
