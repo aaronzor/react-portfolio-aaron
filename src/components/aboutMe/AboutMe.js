@@ -2,12 +2,11 @@
 import React from 'react';
 import Layout from '../layout/Layout.js';
 import { Fade } from 'react-reveal';
-import { Link } from 'react-scroll';
 import TypewriterComponent from 'typewriter-effect';
 
 // Import Styles
 import './aboutMe.css';
-import ArrowCircleDown from '@mui/icons-material/ArrowCircleDown';
+import ScrollDown from '../scroll/ScrollDown.js';
 
 const AboutMe = () => {
   return (
@@ -70,20 +69,7 @@ const AboutMe = () => {
             </p>
           </div>
         </Fade>
-        <div className='scroll'>
-          <Link
-            activeClass='active'
-            to='skills'
-            spy={true}
-            smooth={true}
-            offset={-63}
-            duration={500}>
-            <ArrowCircleDown
-              fontSize='large'
-              style={{ pointerEvents: 'fill', cursor: 'pointer' }}
-            />
-          </Link>
-        </div>
+        <ScrollDown to='skills' />
       </div>
     </Layout>
   );

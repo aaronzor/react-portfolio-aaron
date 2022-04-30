@@ -1,0 +1,28 @@
+/* Responsive Scroll Down Icon */
+@media screen and (min-height: 599px) {
+  .scroll {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -93%);
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+  }
+}
+@media screen and (max-height: 599px) and (min-height: 410px) {
+  .scroll {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -93%);
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10px;
+  }
+}
+@media screen and (max-height: 409px) {
+  .scroll {
+    display: none;
+  }
+}
