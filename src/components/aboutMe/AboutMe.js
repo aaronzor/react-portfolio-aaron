@@ -34,7 +34,8 @@ const AboutMe = () => {
             </div>
             <p>
               I'm a self taught software engineer who likes to work on Front and
-              Back-end web, as well as emerging technologies such as Blockchain.
+              Back-end web, as well as learning more about emerging technologies
+              such as Blockchain and Web3.
             </p>
             <div className='typewriter'>
               <p className='typewriter-start'>I love</p>
