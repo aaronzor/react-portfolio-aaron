@@ -1,5 +1,6 @@
 /* Main Container */
 .skills-main {
+  width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -17,11 +18,15 @@
 /* List of skills that make up bars */
 .skills {
   position: relative;
-  padding-left: 0;
   list-style: none;
+  padding: 0;
   font-size: 1rem;
-  margin: 0 auto;
-  width: 90%;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
 /* Wrapper for each individual bar */
@@ -44,8 +49,10 @@
   background-color: #32e0c4;
   border-radius: 2px 0px 0px 2px;
 }
+
 /* Main wrapper for other skills section */
 .other-skills-main {
+  align-content: center;
   text-align: center;
   margin-top: 1.5rem;
 }
@@ -56,6 +63,13 @@
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+}
+
+/* Text styling for AWS text */
+.other-skills-aws {
+  text-decoration: underline 1px solid #32e0c4;
+  font-weight: 500;
+  margin-right: 5px;
 }
 
 /* Responsive CSS for skill bars */
@@ -77,7 +91,7 @@
 }
 @media screen and (max-width: 599px) {
   .skills {
-    width: 95%;
+    width: 100%;
   }
   .skill-name {
     position: absolute;

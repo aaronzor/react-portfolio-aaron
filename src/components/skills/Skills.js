@@ -1,21 +1,29 @@
+// Main Imports
 import React, { useRef } from 'react';
 import IsVisible from 'react-is-visible';
 import { Fade } from 'react-reveal';
-import skills from '../../data/skills.json';
-import useContainerDimensions from '../../hooks/useContainerDimensions';
 import Layout from '../layout/Layout';
+
+// Import Custom Hook
+import useContainerDimensions from '../../hooks/useContainerDimensions';
+
+// Import Assets
+import skills from '../../data/skills.json';
+
+// Import Styles
 import './skills.css';
 
 const Skills = () => {
+  // Use custom hook to help responsive styles
   const skillsWrapper = useRef();
   const { width } = useContainerDimensions(skillsWrapper);
 
   return (
     <Layout title='Skills'>
-      <h2 style={{ textAlign: 'center' }}>Some of the things I've learned</h2>
       <Fade duration={1000}>
+        <h2 style={{ textAlign: 'center' }}>Some of the things I've learned</h2>
         <div className='skills-main'>
-          <div style={{ position: 'relative', width: '100%', maxWidth: 500 }}>
+          <div style={{ position: 'relative', width: '95%', maxWidth: 600 }}>
             <IsVisible once>
               {(isVisibleSkillsWrapper) => (
                 <div
@@ -85,6 +93,15 @@ const Skills = () => {
                 </ul>
               </div>
             </div>
+            <p>
+              In addition to the skills above, I have also passed the{' '}
+              <span className='other-skills-aws'>
+                AWS Certified Cloud Practitioner exam.
+              </span>
+              Marking the beginning of my understanding of the cloud, and using
+              it to streamline and bolster the development of my future projects
+              and work.
+            </p>
           </div>
         </div>
       </Fade>
