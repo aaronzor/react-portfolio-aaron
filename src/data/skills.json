@@ -1,9 +1,29 @@
 {
   "skills": [
     {
-      "id": 0,
-      "skillName": "JavaScript",
+      "id": 1,
+      "skillName": "HTML",
       "amount": "90"
+    },
+    {
+      "id": 0,
+      "skillName": "JavaScript (ES6)",
+      "amount": "80"
+    },
+    {
+      "id": 3,
+      "skillName": "React",
+      "amount": "85"
+    },
+    {
+      "id": 2,
+      "skillName": "CSS",
+      "amount": "80"
+    },
+    {
+      "id": 4,
+      "skillName": "Python",
+      "amount": "60"
     }
   ]
 }

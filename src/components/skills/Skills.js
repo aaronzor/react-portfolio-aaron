@@ -12,9 +12,10 @@ const Skills = () => {
 
   return (
     <Layout title='Skills'>
+      <h2 style={{ textAlign: 'center' }}>Some of the things I've learned</h2>
       <Fade duration={1000}>
         <div className='skills-main'>
-          <div style={{ position: 'relative', width: '100%', maxWidth: 600 }}>
+          <div style={{ position: 'relative', width: '100%', maxWidth: 500 }}>
             <IsVisible once>
               {(isVisibleSkillsWrapper) => (
                 <div
@@ -28,7 +29,6 @@ const Skills = () => {
                         }
                       : {}
                   }>
-                  <h2>Some of the things I've learned</h2>
                   <ul className='skills' ref={skillsWrapper}>
                     {skills.skills.map((skills) => {
                       return (
@@ -58,9 +58,31 @@ const Skills = () => {
               )}
             </IsVisible>
           </div>
-          <div className='other-skills-container'>
-            <h3>Libraries & Frameworks</h3>
-            <h3>Other Tools</h3>
+          <div className='other-skills-main'>
+            <p>
+              Additionally, I've learned how to use many other supporting tools
+              and skills.
+            </p>
+            <div className='other-skills-container'>
+              <div>
+                <h3>Libraries & Frameworks</h3>
+                <ul className='other-skills-list' style={{ textAlign: 'left' }}>
+                  <li>React</li>
+                  <li>jQuery</li>
+                  <li>Django</li>
+                </ul>
+              </div>
+              <div style={{ textAlign: 'center' }}>
+                <h3>Other Tools & Methods</h3>
+                <ul className='other-skills-list' style={{ textAlign: 'left' }}>
+                  <li>Postman</li>
+                  <li>REST</li>
+                  <li>Figma</li>
+                  <li>Photoshop</li>
+                  <li>Heroku</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </Fade>
