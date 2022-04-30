@@ -86,6 +86,7 @@ const Skills = () => {
                     <li>React</li>
                     <li>jQuery</li>
                     <li>Django</li>
+                    <li>Espress.js</li>
                     <li>MUI</li>
                     <li>Bootstrap</li>
                   </ul>
@@ -98,6 +99,7 @@ const Skills = () => {
                     <li>Postman</li>
                     <li>REST</li>
                     <li>Figma</li>
+                    <li>AWS</li>
                     <li>Photoshop</li>
                     <li>Heroku</li>
                   </ul>
@@ -105,9 +107,11 @@ const Skills = () => {
               </div>
               <p>
                 In addition to the skills above, I have also passed the{' '}
-                <span className='other-skills-aws'>
+                <a
+                  className='other-skills-aws'
+                  href='https://www.credly.com/badges/9f0b7434-db22-4b5f-a611-95849ef4d4ca'>
                   AWS Certified Cloud Practitioner exam.
-                </span>
+                </a>
                 Marking the beginning of my understanding of the cloud, and
                 using it to streamline and bolster the development of my future
                 projects and work.

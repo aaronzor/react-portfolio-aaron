@@ -71,6 +71,7 @@
   text-decoration: underline 1px solid #32e0c4;
   font-weight: 500;
   margin-right: 5px;
+  color: inherit;
 }
 
 /* Responsive CSS for skill bars */

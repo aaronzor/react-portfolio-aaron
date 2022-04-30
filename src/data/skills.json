@@ -24,6 +24,11 @@
       "id": 4,
       "skillName": "Python",
       "amount": "60"
+    },
+    {
+      "id": 5,
+      "skillName": "Node.js",
+      "amount": "85"
     }
   ]
 }
