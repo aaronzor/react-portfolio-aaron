@@ -1,7 +1,21 @@
+/* Main Container */
+.section-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Title Text */
 .section-title {
   font-size: 25pt;
   margin-bottom: 10px;
 }
+
+/* Title Underline */
 .underline {
   border-top: 4px solid #32e0c4;
   margin: 0 auto;
