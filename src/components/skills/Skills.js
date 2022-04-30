@@ -70,6 +70,8 @@ const Skills = () => {
                   <li>React</li>
                   <li>jQuery</li>
                   <li>Django</li>
+                  <li>MUI</li>
+                  <li>Bootstrap</li>
                 </ul>
               </div>
               <div style={{ textAlign: 'center' }}>
