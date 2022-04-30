@@ -1,9 +1,20 @@
+/* Main Container */
+.skills-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Wrapper that surrounds bars */
 .skills-wrapper {
   position: relative;
   width: 100%;
   max-width: 600px;
   text-align: center;
 }
+
+/* List of skills that make up bars */
 .skills {
   position: relative;
   padding-left: 0;
@@ -12,6 +23,8 @@
   margin: 0 auto;
   width: 90%;
 }
+
+/* Wrapper for each individual bar */
 .skill-bar-wrapper {
   overflow: hidden;
   position: relative;
@@ -21,6 +34,8 @@
   height: 30px;
   margin-bottom: 10px;
 }
+
+/* Actual skills bar */
 .skill-bar {
   margin-bottom: 20px;
   display: flex;
@@ -29,13 +44,8 @@
   background-color: #32e0c4;
   border-radius: 2px 0px 0px 2px;
 }
-.skills-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
 
+/* Container for other skills text */
 .other-skills-container {
   display: flex;
   flex-direction: column;
@@ -43,6 +53,7 @@
   text-decoration: underline 1px solid #32e0c4;
 }
 
+/* Responsive CSS for skill bars */
 @media screen and (max-width: 959px) and (min-width: 600px) {
   .skill-name {
     position: absolute;
