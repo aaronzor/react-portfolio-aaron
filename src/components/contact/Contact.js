@@ -1,17 +1,29 @@
+// Main Imports
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import Layout from '../layout/Layout';
 import { Fade } from 'react-reveal';
+
+// Import Components
+import Layout from '../layout/Layout';
+
+// Import Styles
 import '../contact/contact.css';
 
 const Contact = () => {
+  // Initialise state using formspee hook
   const [state, handleSubmit] = useForm('meqnpprb');
   if (state.succeeded) {
-    return <p>Thanks for getting in touch!</p>;
+    return (
+      <Fade duration={1000}>
+        <div className='success-wrapper'>
+          <h2>Thanks for getting in touch!</h2>
+        </div>
+      </Fade>
+    );
   }
   return (
     <Layout title='Contact'>
-      <Fade duraction={1000}>
+      <Fade duration={1000}>
         <h2>Don't hesitate to get in contact.</h2>
         <div className='contact-main'>
           <form onSubmit={handleSubmit}>
