@@ -25,7 +25,7 @@ const Skills = () => {
     <>
       <Layout title='Skills'>
         <Fade duration={1000}>
-          <h2 className='skills-title'>Some of the things I've learned</h2>
+          <h2 className='skills-title'>Some of the things I've learned.</h2>
           <div className='skills-main'>
             <div style={{ position: 'relative', width: '95%', maxWidth: 600 }}>
               <IsVisible once>

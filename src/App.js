@@ -9,6 +9,7 @@ import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Socials from './components/socials/Socials';
 import Footer from './components/footer/Footer';
+import TopButton from './components/topButton/TopButton';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Contact />
       <Socials />
       <Footer />
+      <TopButton />
     </div>
   );
 }

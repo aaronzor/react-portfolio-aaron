@@ -11,6 +11,7 @@
   padding: 0.5rem;
   color: #fefefe;
   background-color: #52616b;
+  border: none;
   border-bottom: 2px solid #32e0c4;
   resize: none;
   margin-top: 1rem;
@@ -26,6 +27,7 @@
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
   resize: vertical;
+  border: none;
   border-bottom: 2px solid #32e0c4;
 }
 form {
