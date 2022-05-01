@@ -72,8 +72,8 @@ const Home = () => {
             <img src={linkedin} alt='Linkedin Logo' width='50px' />
           </a>
         </div>
+        <ScrollDown to='about' />
       </div>
-      <ScrollDown to='about' />
     </div>
   );
 };

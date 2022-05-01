@@ -1,3 +1,8 @@
+.skills-title {
+  margin-top: 1rem;
+  text-align: center;
+}
+
 /* Main Container */
 .skills-main {
   width: 95%;
@@ -6,6 +11,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 3rem;
+  margin-top: 1.5rem;
 }
 
 /* Wrapper that surrounds bars */
@@ -18,16 +24,13 @@
 
 /* List of skills that make up bars */
 .skills {
-  position: relative;
   list-style: none;
-  padding: 0;
+  padding-left: 0;
   font-size: 1rem;
-  margin: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-content: center;
+  justify-content: center;
 }
 
 /* Wrapper for each individual bar */
