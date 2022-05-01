@@ -4,6 +4,7 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import { Fade, Bounce } from 'react-reveal';
 import TypewriterComponent from 'typewriter-effect';
+import Layout from '../layout/Layout';
 
 // Import Assets
 import linkedin from '../../assets/images/linkedin.png';
@@ -60,20 +61,19 @@ const Home = () => {
                 }}
               />
             </h2>
-            <Bounce cascade>
-              <div className='links'>
-                <a
-                  href='https://www.linkedin.com/in/aaron-mcmullan-685621211/'
-                  target='_blank'
-                  rel='noopener noreferrer'>
-                  <img src={linkedin} alt='Linkedin Logo' width='50px' />
-                </a>
-              </div>
-            </Bounce>
-            <ScrollDown to='about' />
+            <Bounce cascade></Bounce>
           </Fade>
         </div>
+        <div className='link'>
+          <a
+            href='https://www.linkedin.com/in/aaron-mcmullan-685621211/'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <img src={linkedin} alt='Linkedin Logo' width='50px' />
+          </a>
+        </div>
       </div>
+      <ScrollDown to='about' />
     </div>
   );
 };
