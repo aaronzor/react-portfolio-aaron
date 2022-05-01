@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "GitHub Finder",
+      "description": "A simple React application for searching GitHub users. Makes use of the GitHub API",
+      "link": "https://github.com/aaronzor/github-finder"
+    },
+    {
+      "id": 1,
+      "title": "React Portfolio",
+      "description": "A developer portfolio made using react together with some useful packages.",
+      "link": "https://github.com/aaronzor/portfolio-aaron-mcmullan"
+    },
+    {
+      "id": 2,
+      "title": "EPoS Questionnaire",
+      "description": "A questionnaire web application built using MERN, intended to generate sales leads for an EPoS sales company.",
+      "link": "https://github.com/aaronzor/epos-questionnaire-mern"
+    },
+    {
+      "id": 3,
+      "title": "Node.js REST API",
+      "description": "Groundwork for an easily reusable web application backend built using Node.js and Express.js",
+      "link": "https://github.com/aaronzor/node-api-master"
+    }
+  ]
+}

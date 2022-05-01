@@ -1,7 +1,10 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
+import projects from '../../data/projects.json';
 
 // Import Components
 import Layout from '../layout/Layout';
+import Project from './Project';
 
 // Import Styles
 import './projects.css';
@@ -9,32 +12,24 @@ import './projects.css';
 const Projects = () => {
   return (
     <Layout title='Projects'>
-      <div class='projects-main'>
-        <div class='col'>
-          <h2>What I've been working on.</h2>
-          <div class='tabs'>
-            <div class='tab'>
-              <input type='checkbox' id='chck1' />
-              <label class='tab-label' for='chck1'>
-                Item 1
-              </label>
-              <div class='tab-content'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
-                reiciendis!
-              </div>
-            </div>
-            <div class='tab'>
-              <input type='checkbox' id='chck2' />
-              <label class='tab-label' for='chck2'>
-                Item 2
-              </label>
-              <div class='tab-content'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
-              </div>
+      <Fade duration={1000}>
+        <div class='projects-main'>
+          <div class='col'>
+            <h2>What I've been working on.</h2>
+            <div class='tabs'>
+              {projects.projects.map((projects) => {
+                return (
+                  <Project
+                    title={projects.title}
+                    id={projects.id}
+                    description={projects.description}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>
-      </div>
+      </Fade>
     </Layout>
   );
 };
