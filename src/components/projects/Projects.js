@@ -37,7 +37,7 @@ const Projects = () => {
           </div>
         </div>
       </Fade>
-      <ScrollDown />
+      <ScrollDown to='contact' />
     </Layout>
   );
 };
