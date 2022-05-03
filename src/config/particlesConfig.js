@@ -7,7 +7,7 @@ const particlesConfig = {
     position: '50% 50%',
     repeat: 'no-repeat',
     size: '20%',
-    opacity: 0.5,
+    opacity: 0.1,
   },
   backgroundMask: {
     composite: 'destination-out',
@@ -15,7 +15,7 @@ const particlesConfig = {
       color: {
         value: '#fff',
       },
-      opacity: 0,
+      opacity: 0.2,
     },
     enable: false,
   },
@@ -358,7 +358,7 @@ const particlesConfig = {
     number: {
       density: {
         enable: true,
-        area: 800,
+        area: 1200,
         factor: 1000,
       },
       limit: 0,
