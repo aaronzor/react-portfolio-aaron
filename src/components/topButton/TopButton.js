@@ -1,11 +1,18 @@
+// Main Imports
 import React, { useState } from 'react';
-import './TopButton.css';
-import { ArrowUpward } from '@mui/icons-material';
 import { Link } from 'react-scroll';
 
+// Import Assets
+import { ArrowUpward } from '@mui/icons-material';
+
+// Import Styles
+import './TopButton.css';
+
 const TopButton = () => {
+  // When the user scrolls down from the top of the document, show the button
+  // Initialise visible state of button
   const [topButtonVisible, setTopButtonVisible] = useState(false);
-  // When the user scrolls down 20px from the top of the document, show the button
+
   const scrollFunction = () => {
     if (
       document.body.scrollTop > window.innerHeight + 63 ||

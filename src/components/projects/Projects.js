@@ -1,3 +1,4 @@
+// Main Imports
 import React from 'react';
 import { Fade } from 'react-reveal';
 import projects from '../../data/projects.json';

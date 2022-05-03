@@ -1,4 +1,7 @@
+// Main Imports
 import React from 'react';
+
+// Import Github Icon
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Project = (props) => {

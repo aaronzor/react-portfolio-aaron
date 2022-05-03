@@ -1,3 +1,4 @@
+// Main Imports
 import React from 'react';
 import './socials.css';
 import { Bounce } from 'react-reveal';

@@ -1,12 +1,14 @@
+/* Main container for contact form */
 .contact-main {
   width: 100%;
   max-width: 400px;
 }
-
+/* Placeholder text styling */
 ::placeholder {
   color: #fefefe;
   font-size: 16px;
 }
+/* Name & Email inputs */
 .input-box {
   padding: 0.5rem;
   color: #fefefe;
@@ -18,7 +20,7 @@
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
 }
-
+/* Message input box */
 .message-box {
   padding: 0.5rem;
   background-color: #52616b;
@@ -35,6 +37,7 @@ form {
   flex-direction: column;
 }
 
+/* Send button */
 .button-submit {
   padding: 0.5rem;
   font-size: 16px;
@@ -43,6 +46,7 @@ form {
   border: 1px solid #32e0c4;
 }
 
+/* Container for success text */
 .success-wrapper {
   text-align: center;
   padding: 2rem;

@@ -47,6 +47,7 @@ const AboutMe = () => {
                     'walking and hiking.',
                     'setting and achieving goals.',
                     'my two cats.',
+                    'understanding how things work.',
                     'gaming.',
                     'solving complex problems.',
                   ],
