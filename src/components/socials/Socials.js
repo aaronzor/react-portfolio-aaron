@@ -21,7 +21,7 @@ const Socials = () => {
             <img src={github} alt='Github Logo' width='40px' />
           </a>
           <a
-            href='https://www.linkedin.com/in/aaron-mcmullan-685621211/'
+            href='https://www.linkedin.com/in/aaron-mcm/'
             target='_blank'
             rel='noopener noreferrer'>
             <img src={linkedin} alt='Linkedin Logo' width='40px' />
