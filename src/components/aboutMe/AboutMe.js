@@ -6,6 +6,7 @@ import TypewriterComponent from 'typewriter-effect';
 
 // Import Styles
 import './aboutMe.css';
+import '../skills/skills.css';
 import ScrollDown from '../scroll/ScrollDown.js';
 
 const AboutMe = () => {
@@ -67,6 +68,15 @@ const AboutMe = () => {
               Below you'll find out more about some of the things I've spent the
               last year learning, as well as some of the projects that I've put
               together!
+            </p>
+            <p>
+              Additionally, for more detailed information about me, take a look
+              at my{' '}
+              <a
+                className='other-skills-aws'
+                href='https://azr-aws-s3.s3.us-east-2.amazonaws.com/CV+Aaron+McMullan+%231.pdf'>
+                CV.
+              </a>
             </p>
           </div>
         </Fade>
